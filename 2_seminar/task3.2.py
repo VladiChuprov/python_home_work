@@ -6,7 +6,7 @@ str1 = input("Введите исходную строку  ")
 str2 = input("Введите строку для проверки ")
 j = 0
 for i in range(len(str1) - len(str2) + 1): 
-     if str1[i : i + len(str2)] == str2:
+     if str1[i :i + len(str2)] == str2:
         j += 1
 print ("Количество вхождений 2-ой строки в первую : "+ str(j))
   

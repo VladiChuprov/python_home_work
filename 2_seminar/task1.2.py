@@ -16,6 +16,6 @@ def sum_numbers(num):
 
 try:
     x = float(input('Введите число  '))
-    print (f"Сумма цифр числа {x} = {int(sum_numbers(x))}")
+    print (f"Сумма цифр числа {str(x)} = {int(sum_numbers(x))}")
 except:
     print ("Введите число")

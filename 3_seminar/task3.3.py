@@ -10,7 +10,7 @@ i = 0
 min = 1
 max = 0
 for i in list_num:
-     if (i - int(i)) <= min:
+     if (i - int(i)) <= min and (i-int(i)>0):
          min = i - int(i)
      if (i - int(i)) >= max:
          max = i - int(i)  
